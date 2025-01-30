@@ -1,6 +1,128 @@
 /* cascading stylesheet */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", serif !important; 
     margin: 0;
     padding: 0;
+    background: #000 !important;
 }
+.top-section{
+    background-image: url("images/bg_profile.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.bg-contraxt{
+    /* background-color: #000000a8; */
+    background-color: #202020b3;
+    /* #202020b3 */
+}
+.container{
+    max-width: 1100px !important;
+}
+.section-heading > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px !important;
+    position: relative;
+  }
+  .section-heading > h2:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #c9c2c2;
+  }
+  .section-heading > h2:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #c9c2c2;
+  }
+
+.img-section{
+    justify-content: center;
+    align-items: center;
+    display: flex
+;
+
+}
+.single-about-img {
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
+    text-align: center;
+}
+.single-about-img:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background: rgba(31, 44, 108, .3);
+}
+.single-about-img img {
+    max-width: 400px;
+    /* height: 468px; */
+}
+.about-list-icon {
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 400px;
+    width: -webkit-fill-available;
+    height: 90px;
+    background: #00000085;
+}
+.about-list-icon ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.about-list-icon ul li:first-child a {
+    margin-left: 0px;
+}
+.about-list-icon ul li a {
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid;
+    margin-left: 20px;
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    padding-right: 22px;
+}
+.about-list-icon ul li a i {
+    margin-left: 6px;
+}
+.single-about-txt p{
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+
+ul li {
+    list-style: none;
+}
+@media (min-width: 992px) {
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+    }
+}
+
