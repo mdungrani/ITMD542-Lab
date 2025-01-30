@@ -8,6 +8,10 @@ body {
 .bg-gray{
     background-color: #272626;
 }
+header .nav-link{
+    color: #ffffffc4;
+    letter-spacing: 0.4px;
+}
 .top-section{
     background-image: url("images/bg_profile.png");
     background-size: 100% auto;
